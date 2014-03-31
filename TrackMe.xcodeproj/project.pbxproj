@@ -20,21 +20,20 @@
 		31A567DA18E76D1800663992 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A567D918E76D1800663992 /* Social.framework */; };
 		31A567DC18E76D2000663992 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A567DB18E76D2000663992 /* StoreKit.framework */; };
 		31A567DE18E76D2B00663992 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A567DD18E76D2B00663992 /* SystemConfiguration.framework */; };
+		31A567E318E7712600663992 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A567E018E7712600663992 /* LoginViewController.m */; };
+		31A567E418E7712600663992 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A567E218E7712600663992 /* RegisterViewController.m */; };
 		31A5954318E72E2800F78A93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5954218E72E2800F78A93 /* MapKit.framework */; };
 		31A5954518E72E3400F78A93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A5954418E72E3400F78A93 /* CoreLocation.framework */; };
 		31B4221B18E11790007D2DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4221A18E11790007D2DB4 /* Foundation.framework */; };
 		31B4221D18E11790007D2DB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4221C18E11790007D2DB4 /* CoreGraphics.framework */; };
 		31B4221F18E11790007D2DB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4221E18E11790007D2DB4 /* UIKit.framework */; };
-		31B4222118E11790007D2DB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4222018E11790007D2DB4 /* CoreData.framework */; };
 		31B4222718E11790007D2DB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31B4222518E11790007D2DB4 /* InfoPlist.strings */; };
 		31B4222918E11790007D2DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4222818E11790007D2DB4 /* main.m */; };
 		31B4222D18E11790007D2DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4222C18E11790007D2DB4 /* AppDelegate.m */; };
-		31B4223018E11790007D2DB4 /* TrackMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B4222E18E11790007D2DB4 /* TrackMe.xcdatamodeld */; };
 		31B4223218E11790007D2DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B4223118E11790007D2DB4 /* Images.xcassets */; };
 		31B4223918E11790007D2DB4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4223818E11790007D2DB4 /* XCTest.framework */; };
 		31B4223A18E11790007D2DB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4221A18E11790007D2DB4 /* Foundation.framework */; };
 		31B4223B18E11790007D2DB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4221E18E11790007D2DB4 /* UIKit.framework */; };
-		31B4223C18E11790007D2DB4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B4222018E11790007D2DB4 /* CoreData.framework */; };
 		31B4224418E11790007D2DB4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31B4224218E11790007D2DB4 /* InfoPlist.strings */; };
 		31B4224618E11790007D2DB4 /* TrackMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B4224518E11790007D2DB4 /* TrackMeTests.m */; };
 		31B4225018E117BA007D2DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B4224F18E117BA007D2DB4 /* Main.storyboard */; };
@@ -66,20 +65,22 @@
 		31A567D918E76D1800663992 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		31A567DB18E76D2000663992 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		31A567DD18E76D2B00663992 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		31A567DF18E7712600663992 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		31A567E018E7712600663992 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		31A567E118E7712600663992 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		31A567E218E7712600663992 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		31A5954218E72E2800F78A93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		31A5954418E72E3400F78A93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		31B4221718E11790007D2DB4 /* TrackMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B4221A18E11790007D2DB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		31B4221C18E11790007D2DB4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		31B4221E18E11790007D2DB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		31B4222018E11790007D2DB4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		31B4222418E11790007D2DB4 /* TrackMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMe-Info.plist"; sourceTree = "<group>"; };
 		31B4222618E11790007D2DB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31B4222818E11790007D2DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31B4222A18E11790007D2DB4 /* TrackMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMe-Prefix.pch"; sourceTree = "<group>"; };
 		31B4222B18E11790007D2DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31B4222C18E11790007D2DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31B4222F18E11790007D2DB4 /* TrackMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackMe.xcdatamodel; sourceTree = "<group>"; };
 		31B4223118E11790007D2DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31B4223718E11790007D2DB4 /* TrackMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B4223818E11790007D2DB4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,7 +116,6 @@
 				31A5954318E72E2800F78A93 /* MapKit.framework in Frameworks */,
 				31B4221D18E11790007D2DB4 /* CoreGraphics.framework in Frameworks */,
 				31A567C618E76A2600663992 /* Parse.framework in Frameworks */,
-				31B4222118E11790007D2DB4 /* CoreData.framework in Frameworks */,
 				31B4221B18E11790007D2DB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B4223918E11790007D2DB4 /* XCTest.framework in Frameworks */,
-				31B4223C18E11790007D2DB4 /* CoreData.framework in Frameworks */,
 				31B4223B18E11790007D2DB4 /* UIKit.framework in Frameworks */,
 				31B4223A18E11790007D2DB4 /* Foundation.framework in Frameworks */,
 			);
@@ -134,6 +133,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A567E518E7713100663992 /* Login\Register */ = {
+			isa = PBXGroup;
+			children = (
+				31A567E218E7712600663992 /* RegisterViewController.m */,
+				31A567DF18E7712600663992 /* LoginViewController.h */,
+				31A567E018E7712600663992 /* LoginViewController.m */,
+				31A567E118E7712600663992 /* RegisterViewController.h */,
+			);
+			name = "Login\\Register";
+			sourceTree = "<group>";
+		};
 		31B4220E18E11790007D2DB4 = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +184,6 @@
 				31B4221A18E11790007D2DB4 /* Foundation.framework */,
 				31B4221C18E11790007D2DB4 /* CoreGraphics.framework */,
 				31B4221E18E11790007D2DB4 /* UIKit.framework */,
-				31B4222018E11790007D2DB4 /* CoreData.framework */,
 				31B4223818E11790007D2DB4 /* XCTest.framework */,
 			);
 			name = Frameworks;
@@ -185,13 +194,13 @@
 			children = (
 				31B4222B18E11790007D2DB4 /* AppDelegate.h */,
 				31B4222C18E11790007D2DB4 /* AppDelegate.m */,
+				31A567E518E7713100663992 /* Login\Register */,
 				31B4224F18E117BA007D2DB4 /* Main.storyboard */,
 				31B4229B18E11966007D2DB4 /* TodayTableViewController.h */,
 				31B4229C18E11966007D2DB4 /* TodayTableViewController.m */,
 				31B4229818E11939007D2DB4 /* ActionViewController.h */,
 				31B4229918E11939007D2DB4 /* ActionViewController.m */,
 				31B4223118E11790007D2DB4 /* Images.xcassets */,
-				31B4222E18E11790007D2DB4 /* TrackMe.xcdatamodeld */,
 				31B4222318E11790007D2DB4 /* Supporting Files */,
 			);
 			path = TrackMe;
@@ -323,8 +332,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B4222D18E11790007D2DB4 /* AppDelegate.m in Sources */,
-				31B4223018E11790007D2DB4 /* TrackMe.xcdatamodeld in Sources */,
+				31A567E318E7712600663992 /* LoginViewController.m in Sources */,
 				31B4229D18E11966007D2DB4 /* TodayTableViewController.m in Sources */,
+				31A567E418E7712600663992 /* RegisterViewController.m in Sources */,
 				31B4222918E11790007D2DB4 /* main.m in Sources */,
 				31B4229A18E11939007D2DB4 /* ActionViewController.m in Sources */,
 			);
@@ -543,19 +553,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		31B4222E18E11790007D2DB4 /* TrackMe.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				31B4222F18E11790007D2DB4 /* TrackMe.xcdatamodel */,
-			);
-			currentVersion = 31B4222F18E11790007D2DB4 /* TrackMe.xcdatamodel */;
-			path = TrackMe.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 31B4220F18E11790007D2DB4 /* Project object */;
 }
